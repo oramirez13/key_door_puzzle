@@ -14,6 +14,10 @@ A puzzle game where you match keys to doors by shape. Built with pygame.
 git clone <repository-url>
 cd key_door_puzzle
 
+# Create and activate a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
 # Install dependencies
 pip install -r requirements.txt
 ```
@@ -26,13 +30,13 @@ python key_door_puzzle.py
 
 ## Controls
 
-| Input | Action |
-|-------|--------|
-| Arrow keys / WASD | Move the key |
-| Mouse | Move the key (alternative) |
-| TAB | Switch between mouse/keyboard |
-| ESC | Quit / Back to menu |
-| SPACE / ENTER | Start game / Next level |
+| Input             | Action                        |
+| ----------------- | ----------------------------- |
+| Arrow keys / WASD | Move the key                  |
+| Mouse             | Move the key (alternative)    |
+| TAB               | Switch between mouse/keyboard |
+| ESC               | Quit / Back to menu           |
+| SPACE / ENTER     | Start game / Next level       |
 
 ## Features
 
