@@ -28,6 +28,12 @@ pip install -r requirements.txt
 python key_door_puzzle.py
 ```
 
+When you are done playing, deactivate the virtual environment:
+
+```bash
+deactivate
+```
+
 ## Controls
 
 | Input             | Action                        |
